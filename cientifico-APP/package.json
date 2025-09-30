@@ -1,0 +1,26 @@
+{
+  "name": "cientifico-app",
+  "version": "1.0.0",
+  "description": "Aplicación de prueba con Webpack y Babel",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development --open --port 3000",
+    "start": "npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.4",
+    "babel-loader": "^10.0.0",
+    "copy-webpack-plugin": "^13.0.1",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.6.4",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^4.15.0"
+  }
+}
